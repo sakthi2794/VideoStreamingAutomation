@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="HippoVideo Automation">
+    <packages>
+      <package name="com.HippoVideo.Test"/>
+    </packages>
+    <classes>
+      <class name="com.HippoVideo.Test.BaseClass"/>
+      <class name="com.HippoVideo.Test.MainClass"/>
+    </classes>
+  </test> <!-- HippoVideo Automation -->
+</suite> <!-- Failed suite [Suite] -->
