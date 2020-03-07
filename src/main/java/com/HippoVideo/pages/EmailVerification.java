@@ -12,7 +12,9 @@ import com.HippoVideo.Test.BaseClass;
 import com.aventstack.extentreports.Status;
 
 import org.openqa.selenium.JavascriptExecutor;
-
+/*
+ * This class is having the methods to check the email has been received from the account
+ */
 public class EmailVerification extends BaseClass {
 
 	public void emailValidation() throws InterruptedException, IOException {

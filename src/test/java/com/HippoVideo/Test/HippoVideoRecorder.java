@@ -7,13 +7,14 @@ import com.HippoVideo.pages.ScreenRecording;
 import com.HippoVideo.pages.SignUp;
 import com.HippoVideo.pages.VideoCampaings;
 
-public class HippoVideoRecorder extends BaseClass{
-	
+//This Class will Act as a Caller Function, this class only initiate first and from here all the class will start execute
+public class HippoVideoRecorder extends BaseClass {
+
 	public final static SignUp signUp = new SignUp();
 	public final static ScreenRecording rec = new ScreenRecording();
 	public final static VideoCampaings video = new VideoCampaings();
 	public final static EmailVerification email = new EmailVerification();
-	
+
 	@Test
 	public static void helper() {
 		try {
@@ -25,7 +26,7 @@ public class HippoVideoRecorder extends BaseClass{
 			video.videoCamping();
 			logger = report.createTest("Email Validation of the Created Video");
 			email.emailValidation();
-		}catch(Exception e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}

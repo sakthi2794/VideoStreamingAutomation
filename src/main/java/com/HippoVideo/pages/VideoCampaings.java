@@ -8,7 +8,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import com.HippoVideo.Test.BaseClass;
 import com.aventstack.extentreports.Status;
-
+/*
+ * This class is having the methods to Configure Email
+ * Sending video to the contacts added to the account
+ */
 public class VideoCampaings extends BaseClass {
 
 	public void videoCamping() throws InterruptedException, IOException {

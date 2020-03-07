@@ -7,7 +7,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import com.HippoVideo.Test.BaseClass;
 import com.aventstack.extentreports.Status;
-
+/* 
+ * This page is having the methods to add Hippovideo extension to chrome browser  
+ * Creating an Account 
+ * Initial Setup for the Account Created
+ */
 public class SignUp extends BaseClass {
     
 	public void initiate() throws IOException {

@@ -5,7 +5,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import com.HippoVideo.Test.BaseClass;
 import com.aventstack.extentreports.Status;
-
+/* 
+ * This Class is having methods to record a video 
+ * Personalize the video
+ */
 public class ScreenRecording extends BaseClass {
 
 	public void createVideo() throws InterruptedException {

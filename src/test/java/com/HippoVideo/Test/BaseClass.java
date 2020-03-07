@@ -30,6 +30,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+// This Class Will have the Basic Setups and All the Reusables for the Application
 public class BaseClass {
 	public static WebDriver driver;
 	public static ExtentReports report;
