@@ -30,7 +30,6 @@ public class EmailVerification extends BaseClass {
 		typeOn("//input[@class='ZH nr aQa']", "EmailFrom");
 		typeOn("//input[@class='ZH nr aQd']", "EmailSubject");
 		clickOn("//div[contains(@class,'T-I J-J5-Ji Zx aQe T-I-atl L3')]");
-		Thread.sleep(3000);
 		List<WebElement> emailList = driver
 				.findElements(By.xpath("//div[contains(@class,'UI')]//tr//td[@role='gridcell']//span/span"));
 		System.out.println(emailList);
